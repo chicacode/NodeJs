@@ -1,7 +1,4 @@
-const mySum = (...args) => {
-  return args.reduce((a, b) => {
-    return a + b;
-  }, 0);
-};
+const { mySum } = require('./myFunctions');
 
-console.log(mySum(3,6,9))
+console.log(mySum(10,50,90))
+console.log(mySum(2,4,6))
