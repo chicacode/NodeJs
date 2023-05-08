@@ -12,6 +12,24 @@ let mySecondArr = myArr.map((element) =>{
 
 console.log(myArr.length)
 
-console.log("myArr", mySum(...myArr))
+let result = mySum(...myArr)
+console.log("myArr result", result )
 
 console.log(mySecondArr)
+
+const average = mySecondArr.reduce((a, b) => a + b, 0) / mySecondArr.length
+
+console.log("average", average)
+let arrayFiltered = mySecondArr.filter((ele) => {
+    if(ele > average){
+        console.log(ele);
+        return true;
+    }
+})
+
+console.log('arrayFiltered', arrayFiltered);
+
+const sayingGoodByeFn = () =>{
+    return console.log('Good bye')
+}
+setTimeout(sayingGoodByeFn, 3000)
