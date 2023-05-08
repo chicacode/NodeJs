@@ -7,10 +7,18 @@
 
 ## B. Put this function in a different module and export it. Then, in this module, import the module that contains your function and call it from this module
 - I've created a module named `lab-1.js` and imported `{mySum}` functions from `myFunction` module
+
+## C. Create an array of numbers named “myArr”. Your array may have any length (try different lengths to test it). 
+
+## D. Call your function passing as arguments the members of myArr array using the SPREAD operator. Assign the result to a “result” variable and console log it.
+
+## E. Create a new array named “mySecondArr”. Map the contents of your myArr array to mySecondArr array using an anonymous function that multiplies each member of myArr by 2.
 ## Node development process
 
 ![alt text](./assets/1..png "image")
 ![alt text](./assets/import-require-file.png "image")
+![alt text](./assets/c-d-exercises.png "image")
+![alt text](./assets/map-eleemts-arr.png "image")
 
 ## Developed by 
 Geri
