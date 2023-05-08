@@ -37,7 +37,7 @@
 ![alt text](./assets/c-d-exercises.png "image")
 ![alt text](./assets/map-eleemts-arr.png "image")
 ![alt text](./assets/goodBye.png "image")
-![alt text](./assets/objects.png"image")
+![alt text](./assets/objects.png "image")
 
 ## Features: 
 - ES 6 + let, const, spread operator, map, filter, reduce, objects, destructuring, module exports, required and more
