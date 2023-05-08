@@ -33,3 +33,19 @@ const sayingGoodByeFn = () =>{
     return console.log('Good bye')
 }
 setTimeout(sayingGoodByeFn, 3000)
+
+const Employee = {
+    name: "Geri",
+    email: "Geri@email.com",
+    department: "Engineering",
+    startDate: "2023-10-10"
+}
+
+const { name, email } = Employee;
+
+const Person = {
+    name,
+    email
+}
+
+console.log("Person: ", Person)
