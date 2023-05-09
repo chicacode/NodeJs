@@ -35,3 +35,4 @@
 ![alt text](./assets/node-lab-2.1.png "image")
 ![alt text](./assets/node-lab2.png "image")
 ![alt text](./assets/router1.png "image")
+![alt text](./assets/routerss.png"image")

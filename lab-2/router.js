@@ -17,15 +17,18 @@ const handleRequest = (req, res) => {
             res.end();
             break;
         case '/read-message':
-
+            res.writeHead(200, {'Content-Type': 'text/plain'});
+            res.write('Read Message');
+            res.end();
         break;
 
         case '/write-message':
 
         break;
             default:
-                console.log('handle all other requests');
-        
+                res.writeHead(404, {'Content-Type': 'text/plain'});
+                res.write('Opp! Page Not Found. Error 404');
+                res.end();
     }
 }
 
