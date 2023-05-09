@@ -29,3 +29,9 @@
 
 ## J.
 10. Respond to requests from ``“/read-message”`` by sending some html that displays the content of your text file.
+
+## Node development process
+
+![alt text](./assets/node-lab-2.1.png "image")
+![alt text](./assets/node-lab2.png "image")
+![alt text](./assets/router1.png "image")
