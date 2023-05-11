@@ -1,11 +1,14 @@
 const express = require('express');
 const bodyParser = require('body-parser');
 const app = express();
-const port = 5000;
+const port = 8000;
+
+console.log("HEllo expopress")
 
 app.use(bodyParser.urlencoded({ extended: true }))
 
-// Routes
+// Routesexpree-app
+
 app.use(express.static(__dirname + '/views'));
 
 // 404 - Not Found Page

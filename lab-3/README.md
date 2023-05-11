@@ -18,3 +18,9 @@
 
 4. Style all your pages using a single main.css file. Your stylesheet should be located in a “public” folder.
 
+## Node development process
+
+![alt text](../lab-3/src/public/assets/express.png "image")
+
+# Develop by
+Geri
