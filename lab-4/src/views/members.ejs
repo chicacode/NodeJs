@@ -1,0 +1,16 @@
+<%- include('partials/header.ejs') %>
+
+<% if(members.length === 0){ %>
+    <h2>We could not find any member</h2>
+<% }else{ %>
+    <ul>
+        <% members.forEach(function(member){ %>
+            <li class="member">
+                <h2><a href="/members/<%= member.id %>"><%= member.name %></a></h2>
+                <p><%= member.description %></p>
+            </li>
+        <% }) %>
+    </ul>
+<% } %>
+
+<%- include('partials/footer.ejs') %>

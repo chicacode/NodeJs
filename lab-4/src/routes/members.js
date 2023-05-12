@@ -7,7 +7,11 @@ const members = [
     { id: uuid.v4(), name: "Yoshi", email: "yoshi@mail.com" },
 ]
 
-router.get('/', (req, res) => res.json(members))
+router.get('/', (req, res) => res.render("index"))
+
+router.get("/members", (req, res) => {
+    res.render("members")
+})
 
 router.get('/:id', (req, res) => {
     const paramsID = req.params.id
@@ -29,7 +33,7 @@ router.post('/', (req,res) => {
     }
 
     members.push(newData)
-    res.json(members)
+    res.render(members)
 })
 
 module.exports = router
